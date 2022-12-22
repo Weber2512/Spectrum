@@ -1,0 +1,154 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: rgb(138, 43, 226);
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+    /* box-shadow: rgba(138, 43, 226) 1.95px 1.95px 2.6px; */
+}
+.left img{
+    width: 160px;
+    height: 65px;
+}
+.container{ 
+    padding: 0px 20vw; 
+    height: 20px;
+    position: relative;
+}  
+.containerHeader{ 
+    padding: 0 10vw;
+    position: static;  
+}
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+  }
+  
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+  }  
+  .flex{
+    display:flex;
+  }
+  
+  .items-center{
+    align-items:center;
+  } 
+  
+  .justify-center{
+    justify-content: center;
+  }
+
+.enquiry{
+    text-decoration: none;
+    background-color: navy;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.enquiry a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    width: 10%;
+}
+.wpb_wrapper h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.wpb_wrapper h1 span{
+    color:blueviolet;
+    list-style: none;
+    line-height: 30px;
+}
+.wpb_wrapper{
+    background-color: rgba(247, 238, 238, 0.5);
+    padding: 20px;
+    margin: 2px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clients h2 span{
+    padding: 10px 75px;
+    font-size: 25px;
+    background: linear-gradient(to right, grey, rgb(183, 0, 255));
+    border-radius: 20px;
+    line-height: 120px;
+    color: white;
+}
+.catalogue h2 span{
+    padding: 10px 65px;
+    font-size: 25px;
+    background: linear-gradient(to right, grey, rgb(183, 0, 255));
+    border-radius: 20px;
+    color: white;
+    line-height: 100px;
+}
+.products h2 span{
+    padding: 10px 65px;
+    font-size: 25px;
+    background: linear-gradient(to right, grey, rgb(183, 0, 255));
+    border-radius: 20px;
+    color: white;
+    line-height: 100px;
+}
+.footer{
+    background-color: navy;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer h2{
+    color: grey;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.footer p{
+    padding: 10px;
+}
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: white;
+  size: 200px;
+}
+
+.carousel-cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  display: block;
+  height: 200px;
+}
+@media screen and ( min-width: 768px ) {
+  .carousel-cell img {
+    height: 400px;
+  }
+}
